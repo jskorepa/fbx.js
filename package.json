@@ -3,5 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "author": "Jakub Skořepa <jakub@skorepa.info>",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^7.0.22",
+    "source-map-support": "^0.4.15",
+    "typescript": "^2.3.3"
+  }
 }
