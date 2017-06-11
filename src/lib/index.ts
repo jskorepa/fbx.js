@@ -458,7 +458,6 @@ export const serialize = async (doc: FBXDocument): Promise<Uint8Array> => {
     for(const byte of footer) {
         buffer[offset++] = byte
     }
-    console.log(offset, byteLength)
 
     return buffer
 }
